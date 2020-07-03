@@ -3,7 +3,7 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: 'Sawarabi Mincho', sans-serif;
+  font-family: 'roboto', sans-serif;
 }
 
 ol, ul {
@@ -40,11 +40,6 @@ section:nth-child(2n) {
           box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
-
-.content {
-  margin: 0 auto;
-  padding: 40px;
 }
 
 .modal {
@@ -129,9 +124,24 @@ nav ul li a {
   margin-bottom: 20px;
 }
 
+#skill h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#skill h3 img {
+  width: 40px;
+  height: auto;
+  margin-right: 20px;
+}
+
 footer {
   position: relative;
-  background-color: green;
+  background-color: #20b2aa;
   width: 100%;
 }
 

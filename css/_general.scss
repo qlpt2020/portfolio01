@@ -4,7 +4,7 @@ $main-color: #20b2aa;
   padding: 0;
   margin: 0;
 
-  font-family: 'Sawarabi Mincho', sans-serif;}
+  font-family: 'roboto', sans-serif;}
 ol, ul {
   list-style: none;
 }
@@ -42,10 +42,10 @@ section {
   margin: 0;
   padding: 0;
 }
-.content{
-  margin: 0 auto;
-  padding: 40px;
-}
+// .content{
+//   margin: 0 auto;
+//   padding: 40px;
+// }
 .modal{
   display: none;
   height: 100vh;
